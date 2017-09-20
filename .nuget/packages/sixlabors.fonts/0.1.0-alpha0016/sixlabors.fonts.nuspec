@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SixLabors.Fonts</id>
+    <version>0.1.0-alpha0016</version>
+    <authors>Six Labors and contributors</authors>
+    <owners>Six Labors and contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/SixLabors/Fonts</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SixLabors/Fonts/master/icons/icon.png</iconUrl>
+    <description>A cross-platform library for loading and laying out for processing and measuring; written in C#</description>
+    <tags>font truetype opentype woff</tags>
+    <repository type="git" url="https://github.com/SixLabors/Fonts" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="1.3.1" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.Core" version="0.1.0-alpha0002" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="1.3.1" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.Core" version="0.1.0-alpha0002" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard1.3/stylecop.json" buildAction="Content" />
+      <files include="any/netstandard1.1/stylecop.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>

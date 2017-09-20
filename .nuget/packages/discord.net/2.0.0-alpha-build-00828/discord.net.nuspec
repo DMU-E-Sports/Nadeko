@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Discord.Net</id>
+    <version>2.0.0-alpha-build-00828</version>
+    <title>Discord.Net</title>
+    <authors>Discord.Net Contributors</authors>
+    <owners>RogueException</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/RogueException/Discord.Net</projectUrl>
+    <description>An asynchronous API wrapper for Discord. This metapackage includes all of the optional Discord.Net components.</description>
+    <tags>discord;discordapp</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Discord.Net.Core" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rest" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.WebSocket" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rpc" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Commands" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Webhook" version="2.0.0-alpha-build-00828" />
+      </group>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="Discord.Net.Core" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rest" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.WebSocket" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rpc" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Commands" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Webhook" version="2.0.0-alpha-build-00828" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Discord.Net.Core" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rest" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.WebSocket" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Rpc" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Commands" version="2.0.0-alpha-build-00828" />
+        <dependency id="Discord.Net.Webhook" version="2.0.0-alpha-build-00828" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

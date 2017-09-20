@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SixLabors.Core</id>
+    <version>0.1.0-alpha0002</version>
+    <authors>Six Labors</authors>
+    <owners>Six Labors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/SixLabors/Core</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SixLabors/Home/master/logo.png</iconUrl>
+    <description>Low level primitives for use across Six Labors projects..</description>
+    <tags>rectangle point size,primitives</tags>
+    <repository type="git" url="https://github.com/SixLabors/Core" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Numerics.Vectors" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SixLabors.Shapes.Text</id>
+    <version>0.1.0-alpha0019</version>
+    <authors>Scott Williams and contributors</authors>
+    <owners>Scott Williams and contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/SixLabors/Shapes</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SixLabors/Shapes/master/icons/icon.png</iconUrl>
+    <description>Allows generating glyphs for text and a font for manipulation using SixLabors.Shapes</description>
+    <tags>shapes text</tags>
+    <repository type="git" url="https://github.com/SixLabors/Shapes" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="SixLabors.Shapes" version="0.1.0-alpha0019" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.Fonts" version="0.1.0-alpha0016" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netstandard1.1/stylecop.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>

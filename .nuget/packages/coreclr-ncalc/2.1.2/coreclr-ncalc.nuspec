@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CoreCLR-NCalc</id>
+    <version>2.1.2</version>
+    <title>CoreCLR-NCalc</title>
+    <authors>Sebastian Klose</authors>
+    <owners>Sebastian Klose</owners>
+    <projectUrl>https://github.com/sklose/NCalc2</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a port of NCalc for .NET Core applications.</description>
+    <tags>ncalc,coreclr,expression,evaluator</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="[1.6.0, )" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="[4.1.1, )" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
